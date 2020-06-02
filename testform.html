@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form test</title>
+        <style>
+            button{
+                width:70px;
+                height:30px;
+                background-color: darkgreen;
+                color:white;
+            }
+            button:hover{
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="First name" type="text" placeholder="First Name"><br>
+                <input name="Last name" type="text" placeholder="Last Name"><br>
+                <input name="Age" type="number" placeholder="Age"><br>
+                <input name="password" type="password" placeholder="Password">
+            </div>
+            <div>
+                Favorite Language?
+                <input name="Language" type="radio" value="java">Java
+                <input name="Language" type="radio" value="php">PHP
+                <input name="Language" type="radio" value="python">Python
+                <input name="Language" type="radio" value="c#">C#
+            </div>
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Mandalay">
+                    <option value="Yangon">
+                    <option value="Sagaing">
+                    <option value="Taunggyi">
+                    <option value="Kalaw">
+                    <option value="Pakokku">
+                    <option value="Mogok">
+
+                               
+                </datalist>
+            </div>
+            <button>Submit</button>
+            <button>Reset</button>
+            
+        </form>
+    </body>
+</html>
